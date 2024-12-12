@@ -1,0 +1,26 @@
+{
+   "id": "675aedbb5a802b1bf8dbe7bd",
+   "name": "MaskRCNN-EfficientNetB2B OpenVINO FP32",
+   "version": 2,
+   "creation_date": "2024-12-12T14:05:47.384000+00:00",
+   "model_format": "OpenVINO",
+   "precision": [
+      "FP32"
+   ],
+   "has_xai_head": false,
+   "target_device": "CPU",
+   "target_device_type": null,
+   "performance": {
+      "score": 0.5481481481481479
+   },
+   "size": 52885510,
+   "latency": 0,
+   "fps_throughput": 0,
+   "optimization_type": "MO",
+   "optimization_objectives": {},
+   "model_status": "SUCCESS",
+   "configurations": [],
+   "previous_revision_id": "675aedbb5a802b1bf8dbe7bb",
+   "previous_trained_revision_id": "675aedbb5a802b1bf8dbe7bb",
+   "optimization_methods": []
+}

@@ -1,0 +1,8 @@
+{
+    "task_type": "instance_segmentation",
+    "model_type": "MaskRCNN",
+    "model_parameters": {
+        "labels": "otx_empty_lbl 675ad662e9005102abff322c 675ad662e9005102abff322d 675ad662e9005102abff322e 675ad662e9005102abff322f",
+        "labels_ids": "None 675ad662e9005102abff322c 675ad662e9005102abff322d 675ad662e9005102abff322e 675ad662e9005102abff322f"
+    }
+}

@@ -1,0 +1,107 @@
+{
+   "id": "675ad662e9005102abff3227",
+   "name": "Dorra(1)",
+   "creation_time": "2024-12-12T12:26:10.180000+00:00",
+   "creator_id": "b584f817-dec3-4aa6-953f-bf73a898ab0b",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "675ad662e9005102abff3228",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "675ad662e9005102abff322a",
+            "title": "Detection oriented",
+            "task_type": "rotated_detection",
+            "labels": [
+               {
+                  "id": "675ad662e9005102abff322c",
+                  "name": "Christmas Tree",
+                  "is_anomalous": false,
+                  "color": "#ff7d00ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection oriented labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "675ad662e9005102abff322d",
+                  "name": "Ornaments",
+                  "is_anomalous": false,
+                  "color": "#708541ff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection oriented labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "675ad662e9005102abff322e",
+                  "name": "Gifts",
+                  "is_anomalous": false,
+                  "color": "#81407bff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection oriented labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "675ad662e9005102abff322f",
+                  "name": "Holiday Treats",
+                  "is_anomalous": false,
+                  "color": "#25a18eff",
+                  "hotkey": "",
+                  "is_empty": false,
+                  "group": "Detection oriented labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "675ad662e9005102abff3233",
+                  "name": "No object",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No object",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "675ad662e9005102abff3235"
+         }
+      ],
+      "connections": [
+         {
+            "from": "675ad662e9005102abff3228",
+            "to": "675ad662e9005102abff322a"
+         }
+      ]
+   },
+   "thumbnail": "/api/v1/organizations/8e84dfe2-bf6a-4840-afeb-b4fbfbc62010/workspaces/f4626cc3-6223-4788-9218-8438eb313fe8/projects/675ad662e9005102abff3227/thumbnail",
+   "performance": {
+      "score": 0.5481481481481479,
+      "task_performances": [
+         {
+            "task_id": "675ad662e9005102abff322a",
+            "score": {
+               "value": 0.5481481481481479,
+               "metric_type": "F-Measure"
+            }
+         }
+      ]
+   },
+   "storage_info": {},
+   "datasets": [
+      {
+         "id": "675ad662e9005102abff3230",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2024-12-12T12:26:10.177000+00:00"
+      },
+      {
+         "id": "675aee92e137e82a81c594a9",
+         "name": "Testing set 1",
+         "use_for_training": false,
+         "creation_time": "2024-12-12T14:09:22.370000+00:00"
+      }
+   ]
+}
